@@ -16,7 +16,7 @@ This approach focuses on an end-to-end vision-to-code generation, combining a po
     * **Encoder:** A **Vision Transformer (ViT)** is employed to process the input image. It's responsible for extracting high-level semantic and geometric features from the visual data.
     * **Decoder:** **CodeGPT Small** acts as the decoder. It takes the contextually rich embeddings produced by the ViT encoder and generates the corresponding CADquery Python code.
 * **Fine-tuning:** Both the ViT encoder and CodeGPT decoder were fine-tuned on a subset of the **CADCODER/GenCAD-Code** dataset. This dataset provides paired images and their respective CAD code, crucial for teaching the model the intricate relationship between visual features and CAD commands.
-* **Implementation:** For the detailed implementation, including data loading, model architecture setup, and the fine-tuning process, please refer to the `finetynining vit+codegpt.ipynb` notebook.
+* **Implementation:** For the detailed implementation, including data loading, model architecture setup, and the fine-tuning process, please refer to the `vit+codegptsmall.py` notebook.
 
 ### 2. Dual Large Language Model (LLM) Pipeline: Description Generation + Code Generation
 
