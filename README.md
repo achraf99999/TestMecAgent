@@ -59,8 +59,7 @@ To set up and run the code in this repository:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone [https://github.com/achraf99999/TestMecAgent.git]
     ```
 
 2.  **Install Dependencies:**
